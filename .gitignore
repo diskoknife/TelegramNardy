@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+# SSH files
+ssh_for_nardy.pub
+ssh_for_nardy
+.idea/
