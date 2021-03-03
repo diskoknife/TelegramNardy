@@ -1,3 +1,3 @@
 # TelegramNardy
 Nardy for telegram
-new string
+new string:wqgit 
