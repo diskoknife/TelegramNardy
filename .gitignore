@@ -3,10 +3,11 @@ __pycache__/
 *.py[cod]
 *$py.class
 .idea/
-
+src/map
+src/URL.txt
 # C extensions
 *.so
-
+test
 # Distribution / packaging
 .Python
 build/
