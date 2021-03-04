@@ -6,16 +6,15 @@
 
 """
 
-null_dict = {}
-
 
 def create_map(desk_length=23, fis_num=15, black="Black", white="White"):
-    for i in range(desk_length):
-        null_dict.setdefault(i + 1, None)
-    null_dict[1] = [white for j in range(fis_num)]
-    null_dict[13] = [black for k in range(fis_num)]
-    return null_dict
+    desk_tuple = tuple(i for i in range(1, 25))
+    desk_array = list("None" for i in range(desk_length))
+    desk_array[0] = list(white for i in range(fis_num))
+    desk_array[12] = list(black for i in range(fis_num))
+    return desk_tuple, desk_array
 
 
-class Desk:
-    create_map()
+
+current_map = create_map()
+print(current_map)
