@@ -7,6 +7,7 @@ def
 """
 
 
+
 class Battle:
     def __init__(self, color, cube_a, cube_b):
         self.cube_b = cube_b
