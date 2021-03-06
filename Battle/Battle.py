@@ -13,4 +13,6 @@ class Battle:
         self.cube_a = cube_a
         self.color = color
 
-    def pick_figure(self, isAvailable):
+    def pick_figure(self, isAvailable, position):
+
+    def throw_figure(self, isAvailable, position):
