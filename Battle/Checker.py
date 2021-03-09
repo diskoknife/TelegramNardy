@@ -10,3 +10,5 @@ class Checker:
         if check_a and check_b:
             return True
     def check_a(self, color, cube_1, cube_2):
+
+    def check_b(self, color, cube_1, cube_2):
