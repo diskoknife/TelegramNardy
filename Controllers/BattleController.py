@@ -7,7 +7,7 @@ from Battle import Engine
 from Battle.Engine import throw_cube, check, available_figures, replace_figure
 
 init = Engine
-current_map = Engine.Desk.create_desk()
+current_map = create_desk()
 colors = {
     0: "Black",
     1: "White"
